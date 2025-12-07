@@ -17,7 +17,7 @@ Traditional detection requires expert examination of blood smear images, which i
 - Labor-intensive  
 - Error-prone  
 
-This project aims to automate malaria detection using **deep learning**, improving speed, consistency, and accessibility of early diagnosis.  
+**Goal:** To build an AI-powered model that can classify whether a given blood cell image is infected or uninfected with malaria parasites using deep learning.
 
 ---
 
@@ -44,7 +44,7 @@ All images were:
 Dataset link:  
 https://lhncbc.nlm.nih.gov/LHC-downloads/malaria-dataset
 
-⚠️ *Dataset is NOT included in this repository due to size and licensing.*
+⚠️ *Dataset is not included in this repository due to size and licensing.*
 
 ---
 
@@ -91,14 +91,13 @@ Single-image predictions correctly classify infected vs uninfected cells.
 ---
 
 ## 📁 Repository Structure
-
+```
 Malaria/
 │── Malaria_Cell_Classification.ipynb 
 │── README.md
 │── requirements.txt 
 │── .gitignore 
-│── sample_images (few demo images)
-
+```
 ---
 
 ## 🛠 Installation & Setup
@@ -107,6 +106,7 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ---
 
@@ -123,7 +123,7 @@ dataset_path = "/content/drive/MyDrive/Malaria_dataset"
 
 # For local VS Code:
 dataset_path = "path/to/Malaria_dataset"
-
+```
 3.Run all cells to load data, train the model, and test predictions.
 
 ---
@@ -149,3 +149,4 @@ Medha Ramanathan
 GitHub: Medha-tech
 
 ---
+
